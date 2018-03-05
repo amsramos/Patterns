@@ -30,7 +30,6 @@ public class MainFrame extends JFrame implements IGUI{
 		contentPane = new JPanel();
 		this.pluginsLoader = new PluginsLoader();
 		this.decorators = pluginsLoader.getPlugins();
-		this.btnPreparar = new JButton("Preparar");
 		this.loadButtons();
 		this.loadList();
 		setContentPane(this.contentPane);
