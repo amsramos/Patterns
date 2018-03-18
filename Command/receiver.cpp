@@ -15,3 +15,8 @@ void Receiver::multiply(double value)
 {
     m_number *= value;
 }
+
+QString Receiver::toString() const
+{
+    return QString::number(m_number, 'f');
+}
